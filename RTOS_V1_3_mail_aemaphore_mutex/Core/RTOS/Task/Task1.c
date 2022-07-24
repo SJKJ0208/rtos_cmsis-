@@ -3,7 +3,6 @@
 //
 #include "all_src.h"
 #include "stdio.h"
-#include "cmsis_os.h"
 
 
 /**

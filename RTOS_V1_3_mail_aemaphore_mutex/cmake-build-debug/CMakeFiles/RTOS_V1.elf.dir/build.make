@@ -104,9 +104,22 @@ CMakeFiles/RTOS_V1.elf.dir/Core/RTOS/Task/init_Task.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RTOS_V1.elf.dir/Core/RTOS/Task/init_Task.c.s"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\Core\RTOS\Task\init_Task.c -o CMakeFiles\RTOS_V1.elf.dir\Core\RTOS\Task\init_Task.c.s
 
+CMakeFiles/RTOS_V1.elf.dir/Core/RTOS/Task/mailbox.c.obj: CMakeFiles/RTOS_V1.elf.dir/flags.make
+CMakeFiles/RTOS_V1.elf.dir/Core/RTOS/Task/mailbox.c.obj: ../Core/RTOS/Task/mailbox.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/RTOS_V1.elf.dir/Core/RTOS/Task/mailbox.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RTOS_V1.elf.dir\Core\RTOS\Task\mailbox.c.obj -c G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\Core\RTOS\Task\mailbox.c
+
+CMakeFiles/RTOS_V1.elf.dir/Core/RTOS/Task/mailbox.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RTOS_V1.elf.dir/Core/RTOS/Task/mailbox.c.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\Core\RTOS\Task\mailbox.c > CMakeFiles\RTOS_V1.elf.dir\Core\RTOS\Task\mailbox.c.i
+
+CMakeFiles/RTOS_V1.elf.dir/Core/RTOS/Task/mailbox.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RTOS_V1.elf.dir/Core/RTOS/Task/mailbox.c.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\Core\RTOS\Task\mailbox.c -o CMakeFiles\RTOS_V1.elf.dir\Core\RTOS\Task\mailbox.c.s
+
 CMakeFiles/RTOS_V1.elf.dir/Core/RTOS/Task/vReceiverTask.c.obj: CMakeFiles/RTOS_V1.elf.dir/flags.make
 CMakeFiles/RTOS_V1.elf.dir/Core/RTOS/Task/vReceiverTask.c.obj: ../Core/RTOS/Task/vReceiverTask.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/RTOS_V1.elf.dir/Core/RTOS/Task/vReceiverTask.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/RTOS_V1.elf.dir/Core/RTOS/Task/vReceiverTask.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RTOS_V1.elf.dir\Core\RTOS\Task\vReceiverTask.c.obj -c G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\Core\RTOS\Task\vReceiverTask.c
 
 CMakeFiles/RTOS_V1.elf.dir/Core/RTOS/Task/vReceiverTask.c.i: cmake_force
@@ -119,7 +132,7 @@ CMakeFiles/RTOS_V1.elf.dir/Core/RTOS/Task/vReceiverTask.c.s: cmake_force
 
 CMakeFiles/RTOS_V1.elf.dir/Core/RTOS/Task/vSenderTask.c.obj: CMakeFiles/RTOS_V1.elf.dir/flags.make
 CMakeFiles/RTOS_V1.elf.dir/Core/RTOS/Task/vSenderTask.c.obj: ../Core/RTOS/Task/vSenderTask.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/RTOS_V1.elf.dir/Core/RTOS/Task/vSenderTask.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/RTOS_V1.elf.dir/Core/RTOS/Task/vSenderTask.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RTOS_V1.elf.dir\Core\RTOS\Task\vSenderTask.c.obj -c G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\Core\RTOS\Task\vSenderTask.c
 
 CMakeFiles/RTOS_V1.elf.dir/Core/RTOS/Task/vSenderTask.c.i: cmake_force
@@ -132,7 +145,7 @@ CMakeFiles/RTOS_V1.elf.dir/Core/RTOS/Task/vSenderTask.c.s: cmake_force
 
 CMakeFiles/RTOS_V1.elf.dir/Core/Retartget/retarget.c.obj: CMakeFiles/RTOS_V1.elf.dir/flags.make
 CMakeFiles/RTOS_V1.elf.dir/Core/Retartget/retarget.c.obj: ../Core/Retartget/retarget.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/RTOS_V1.elf.dir/Core/Retartget/retarget.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/RTOS_V1.elf.dir/Core/Retartget/retarget.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RTOS_V1.elf.dir\Core\Retartget\retarget.c.obj -c G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\Core\Retartget\retarget.c
 
 CMakeFiles/RTOS_V1.elf.dir/Core/Retartget/retarget.c.i: cmake_force
@@ -145,7 +158,7 @@ CMakeFiles/RTOS_V1.elf.dir/Core/Retartget/retarget.c.s: cmake_force
 
 CMakeFiles/RTOS_V1.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/RTOS_V1.elf.dir/flags.make
 CMakeFiles/RTOS_V1.elf.dir/Core/Src/gpio.c.obj: ../Core/Src/gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/RTOS_V1.elf.dir/Core/Src/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/RTOS_V1.elf.dir/Core/Src/gpio.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RTOS_V1.elf.dir\Core\Src\gpio.c.obj -c G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\Core\Src\gpio.c
 
 CMakeFiles/RTOS_V1.elf.dir/Core/Src/gpio.c.i: cmake_force
@@ -158,7 +171,7 @@ CMakeFiles/RTOS_V1.elf.dir/Core/Src/gpio.c.s: cmake_force
 
 CMakeFiles/RTOS_V1.elf.dir/Core/Src/main.c.obj: CMakeFiles/RTOS_V1.elf.dir/flags.make
 CMakeFiles/RTOS_V1.elf.dir/Core/Src/main.c.obj: ../Core/Src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/RTOS_V1.elf.dir/Core/Src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/RTOS_V1.elf.dir/Core/Src/main.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RTOS_V1.elf.dir\Core\Src\main.c.obj -c G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\Core\Src\main.c
 
 CMakeFiles/RTOS_V1.elf.dir/Core/Src/main.c.i: cmake_force
@@ -171,7 +184,7 @@ CMakeFiles/RTOS_V1.elf.dir/Core/Src/main.c.s: cmake_force
 
 CMakeFiles/RTOS_V1.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: CMakeFiles/RTOS_V1.elf.dir/flags.make
 CMakeFiles/RTOS_V1.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: ../Core/Src/stm32f1xx_hal_msp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/RTOS_V1.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/RTOS_V1.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RTOS_V1.elf.dir\Core\Src\stm32f1xx_hal_msp.c.obj -c G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\Core\Src\stm32f1xx_hal_msp.c
 
 CMakeFiles/RTOS_V1.elf.dir/Core/Src/stm32f1xx_hal_msp.c.i: cmake_force
@@ -184,7 +197,7 @@ CMakeFiles/RTOS_V1.elf.dir/Core/Src/stm32f1xx_hal_msp.c.s: cmake_force
 
 CMakeFiles/RTOS_V1.elf.dir/Core/Src/stm32f1xx_it.c.obj: CMakeFiles/RTOS_V1.elf.dir/flags.make
 CMakeFiles/RTOS_V1.elf.dir/Core/Src/stm32f1xx_it.c.obj: ../Core/Src/stm32f1xx_it.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/RTOS_V1.elf.dir/Core/Src/stm32f1xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/RTOS_V1.elf.dir/Core/Src/stm32f1xx_it.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RTOS_V1.elf.dir\Core\Src\stm32f1xx_it.c.obj -c G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\Core\Src\stm32f1xx_it.c
 
 CMakeFiles/RTOS_V1.elf.dir/Core/Src/stm32f1xx_it.c.i: cmake_force
@@ -197,7 +210,7 @@ CMakeFiles/RTOS_V1.elf.dir/Core/Src/stm32f1xx_it.c.s: cmake_force
 
 CMakeFiles/RTOS_V1.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/RTOS_V1.elf.dir/flags.make
 CMakeFiles/RTOS_V1.elf.dir/Core/Src/syscalls.c.obj: ../Core/Src/syscalls.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/RTOS_V1.elf.dir/Core/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/RTOS_V1.elf.dir/Core/Src/syscalls.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RTOS_V1.elf.dir\Core\Src\syscalls.c.obj -c G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\Core\Src\syscalls.c
 
 CMakeFiles/RTOS_V1.elf.dir/Core/Src/syscalls.c.i: cmake_force
@@ -210,7 +223,7 @@ CMakeFiles/RTOS_V1.elf.dir/Core/Src/syscalls.c.s: cmake_force
 
 CMakeFiles/RTOS_V1.elf.dir/Core/Src/system_stm32f1xx.c.obj: CMakeFiles/RTOS_V1.elf.dir/flags.make
 CMakeFiles/RTOS_V1.elf.dir/Core/Src/system_stm32f1xx.c.obj: ../Core/Src/system_stm32f1xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/RTOS_V1.elf.dir/Core/Src/system_stm32f1xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/RTOS_V1.elf.dir/Core/Src/system_stm32f1xx.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RTOS_V1.elf.dir\Core\Src\system_stm32f1xx.c.obj -c G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\Core\Src\system_stm32f1xx.c
 
 CMakeFiles/RTOS_V1.elf.dir/Core/Src/system_stm32f1xx.c.i: cmake_force
@@ -223,7 +236,7 @@ CMakeFiles/RTOS_V1.elf.dir/Core/Src/system_stm32f1xx.c.s: cmake_force
 
 CMakeFiles/RTOS_V1.elf.dir/Core/Src/usart.c.obj: CMakeFiles/RTOS_V1.elf.dir/flags.make
 CMakeFiles/RTOS_V1.elf.dir/Core/Src/usart.c.obj: ../Core/Src/usart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/RTOS_V1.elf.dir/Core/Src/usart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/RTOS_V1.elf.dir/Core/Src/usart.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RTOS_V1.elf.dir\Core\Src\usart.c.obj -c G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\Core\Src\usart.c
 
 CMakeFiles/RTOS_V1.elf.dir/Core/Src/usart.c.i: cmake_force
@@ -236,7 +249,7 @@ CMakeFiles/RTOS_V1.elf.dir/Core/Src/usart.c.s: cmake_force
 
 CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: CMakeFiles/RTOS_V1.elf.dir/flags.make
 CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RTOS_V1.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.obj -c G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c
 
 CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.i: cmake_force
@@ -249,7 +262,7 @@ CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.s: c
 
 CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: CMakeFiles/RTOS_V1.elf.dir/flags.make
 CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RTOS_V1.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.obj -c G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c
 
 CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.i: cmake_force
@@ -262,7 +275,7 @@ CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex
 
 CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: CMakeFiles/RTOS_V1.elf.dir/flags.make
 CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RTOS_V1.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.obj -c G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c
 
 CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.i: cmake_force
@@ -275,7 +288,7 @@ CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.
 
 CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: CMakeFiles/RTOS_V1.elf.dir/flags.make
 CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RTOS_V1.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.obj -c G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c
 
 CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.i: cmake_force
@@ -288,7 +301,7 @@ CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c
 
 CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: CMakeFiles/RTOS_V1.elf.dir/flags.make
 CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RTOS_V1.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.obj -c G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c
 
 CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.i: cmake_force
@@ -301,7 +314,7 @@ CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.
 
 CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: CMakeFiles/RTOS_V1.elf.dir/flags.make
 CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RTOS_V1.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.obj -c G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c
 
 CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.i: cmake_force
@@ -314,7 +327,7 @@ CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_
 
 CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: CMakeFiles/RTOS_V1.elf.dir/flags.make
 CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RTOS_V1.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.obj -c G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c
 
 CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.i: cmake_force
@@ -327,7 +340,7 @@ CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c
 
 CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: CMakeFiles/RTOS_V1.elf.dir/flags.make
 CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RTOS_V1.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.obj -c G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c
 
 CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.i: cmake_force
@@ -340,7 +353,7 @@ CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_e
 
 CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: CMakeFiles/RTOS_V1.elf.dir/flags.make
 CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RTOS_V1.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.obj -c G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c
 
 CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.i: cmake_force
@@ -353,7 +366,7 @@ CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.
 
 CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: CMakeFiles/RTOS_V1.elf.dir/flags.make
 CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RTOS_V1.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.obj -c G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c
 
 CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.i: cmake_force
@@ -366,7 +379,7 @@ CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.
 
 CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: CMakeFiles/RTOS_V1.elf.dir/flags.make
 CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RTOS_V1.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.obj -c G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c
 
 CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.i: cmake_force
@@ -379,7 +392,7 @@ CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex
 
 CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: CMakeFiles/RTOS_V1.elf.dir/flags.make
 CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RTOS_V1.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c.obj -c G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c
 
 CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.i: cmake_force
@@ -392,7 +405,7 @@ CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.
 
 CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: CMakeFiles/RTOS_V1.elf.dir/flags.make
 CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RTOS_V1.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c.obj -c G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c
 
 CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.i: cmake_force
@@ -405,7 +418,7 @@ CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex
 
 CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj: CMakeFiles/RTOS_V1.elf.dir/flags.make
 CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RTOS_V1.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c.obj -c G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c
 
 CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.i: cmake_force
@@ -418,7 +431,7 @@ CMakeFiles/RTOS_V1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c
 
 CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj: CMakeFiles/RTOS_V1.elf.dir/flags.make
 CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RTOS_V1.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c.obj -c G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c
 
 CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.i: cmake_force
@@ -431,7 +444,7 @@ CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cm
 
 CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: CMakeFiles/RTOS_V1.elf.dir/flags.make
 CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/croutine.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RTOS_V1.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.obj -c G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\Middlewares\Third_Party\FreeRTOS\Source\croutine.c
 
 CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i: cmake_force
@@ -444,7 +457,7 @@ CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.s:
 
 CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: CMakeFiles/RTOS_V1.elf.dir/flags.make
 CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RTOS_V1.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.obj -c G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c
 
 CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i: cmake_force
@@ -457,7 +470,7 @@ CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.
 
 CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: CMakeFiles/RTOS_V1.elf.dir/flags.make
 CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RTOS_V1.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.obj -c G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\Middlewares\Third_Party\FreeRTOS\Source\list.c
 
 CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.i: cmake_force
@@ -470,7 +483,7 @@ CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.s: cma
 
 CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj: CMakeFiles/RTOS_V1.elf.dir/flags.make
 CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RTOS_V1.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM3\port.c.obj -c G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM3\port.c
 
 CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.i: cmake_force
@@ -483,7 +496,7 @@ CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/
 
 CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_3.c.obj: CMakeFiles/RTOS_V1.elf.dir/flags.make
 CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_3.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_3.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_3.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RTOS_V1.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_3.c.obj -c G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_3.c
 
 CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_3.c.i: cmake_force
@@ -496,7 +509,7 @@ CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemM
 
 CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: CMakeFiles/RTOS_V1.elf.dir/flags.make
 CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/queue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RTOS_V1.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.obj -c G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\Middlewares\Third_Party\FreeRTOS\Source\queue.c
 
 CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.i: cmake_force
@@ -509,7 +522,7 @@ CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.s: cm
 
 CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: CMakeFiles/RTOS_V1.elf.dir/flags.make
 CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RTOS_V1.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.obj -c G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c
 
 CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i: cmake_force
@@ -522,7 +535,7 @@ CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer
 
 CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: CMakeFiles/RTOS_V1.elf.dir/flags.make
 CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/tasks.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RTOS_V1.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.obj -c G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\Middlewares\Third_Party\FreeRTOS\Source\tasks.c
 
 CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i: cmake_force
@@ -535,7 +548,7 @@ CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.s: cm
 
 CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: CMakeFiles/RTOS_V1.elf.dir/flags.make
 CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/timers.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RTOS_V1.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.obj -c G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\Middlewares\Third_Party\FreeRTOS\Source\timers.c
 
 CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.i: cmake_force
@@ -548,7 +561,7 @@ CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s: c
 
 CMakeFiles/RTOS_V1.elf.dir/startup/startup_stm32f103xb.s.obj: CMakeFiles/RTOS_V1.elf.dir/flags.make
 CMakeFiles/RTOS_V1.elf.dir/startup/startup_stm32f103xb.s.obj: ../startup/startup_stm32f103xb.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building ASM object CMakeFiles/RTOS_V1.elf.dir/startup/startup_stm32f103xb.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object CMakeFiles/RTOS_V1.elf.dir/startup/startup_stm32f103xb.s.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\RTOS_V1.elf.dir\startup\startup_stm32f103xb.s.obj -c G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\startup\startup_stm32f103xb.s
 
 CMakeFiles/RTOS_V1.elf.dir/startup/startup_stm32f103xb.s.i: cmake_force
@@ -564,6 +577,7 @@ RTOS_V1_elf_OBJECTS = \
 "CMakeFiles/RTOS_V1.elf.dir/Core/RTOS/Task/Task1.c.obj" \
 "CMakeFiles/RTOS_V1.elf.dir/Core/RTOS/Task/Task2.c.obj" \
 "CMakeFiles/RTOS_V1.elf.dir/Core/RTOS/Task/init_Task.c.obj" \
+"CMakeFiles/RTOS_V1.elf.dir/Core/RTOS/Task/mailbox.c.obj" \
 "CMakeFiles/RTOS_V1.elf.dir/Core/RTOS/Task/vReceiverTask.c.obj" \
 "CMakeFiles/RTOS_V1.elf.dir/Core/RTOS/Task/vSenderTask.c.obj" \
 "CMakeFiles/RTOS_V1.elf.dir/Core/Retartget/retarget.c.obj" \
@@ -606,6 +620,7 @@ RTOS_V1_elf_EXTERNAL_OBJECTS =
 RTOS_V1.elf: CMakeFiles/RTOS_V1.elf.dir/Core/RTOS/Task/Task1.c.obj
 RTOS_V1.elf: CMakeFiles/RTOS_V1.elf.dir/Core/RTOS/Task/Task2.c.obj
 RTOS_V1.elf: CMakeFiles/RTOS_V1.elf.dir/Core/RTOS/Task/init_Task.c.obj
+RTOS_V1.elf: CMakeFiles/RTOS_V1.elf.dir/Core/RTOS/Task/mailbox.c.obj
 RTOS_V1.elf: CMakeFiles/RTOS_V1.elf.dir/Core/RTOS/Task/vReceiverTask.c.obj
 RTOS_V1.elf: CMakeFiles/RTOS_V1.elf.dir/Core/RTOS/Task/vSenderTask.c.obj
 RTOS_V1.elf: CMakeFiles/RTOS_V1.elf.dir/Core/Retartget/retarget.c.obj
@@ -643,7 +658,7 @@ RTOS_V1.elf: CMakeFiles/RTOS_V1.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/
 RTOS_V1.elf: CMakeFiles/RTOS_V1.elf.dir/startup/startup_stm32f103xb.s.obj
 RTOS_V1.elf: CMakeFiles/RTOS_V1.elf.dir/build.make
 RTOS_V1.elf: CMakeFiles/RTOS_V1.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Linking C executable RTOS_V1.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=G:\local\source\cmsis_os\RTOS_V1_3_mail_aemaphore_mutex\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Linking C executable RTOS_V1.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\RTOS_V1.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building G:/local/source/cmsis_os/RTOS_V1_3_mail_aemaphore_mutex/cmake-build-debug/RTOS_V1.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building G:/local/source/cmsis_os/RTOS_V1_3_mail_aemaphore_mutex/cmake-build-debug/RTOS_V1.bin"

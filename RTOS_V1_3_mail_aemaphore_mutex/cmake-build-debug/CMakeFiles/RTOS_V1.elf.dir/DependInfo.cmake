@@ -36,6 +36,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "G:/local/source/cmsis_os/RTOS_V1_3_mail_aemaphore_mutex/Core/RTOS/Task/Task1.c" "G:/local/source/cmsis_os/RTOS_V1_3_mail_aemaphore_mutex/cmake-build-debug/CMakeFiles/RTOS_V1.elf.dir/Core/RTOS/Task/Task1.c.obj"
   "G:/local/source/cmsis_os/RTOS_V1_3_mail_aemaphore_mutex/Core/RTOS/Task/Task2.c" "G:/local/source/cmsis_os/RTOS_V1_3_mail_aemaphore_mutex/cmake-build-debug/CMakeFiles/RTOS_V1.elf.dir/Core/RTOS/Task/Task2.c.obj"
   "G:/local/source/cmsis_os/RTOS_V1_3_mail_aemaphore_mutex/Core/RTOS/Task/init_Task.c" "G:/local/source/cmsis_os/RTOS_V1_3_mail_aemaphore_mutex/cmake-build-debug/CMakeFiles/RTOS_V1.elf.dir/Core/RTOS/Task/init_Task.c.obj"
+  "G:/local/source/cmsis_os/RTOS_V1_3_mail_aemaphore_mutex/Core/RTOS/Task/mailbox.c" "G:/local/source/cmsis_os/RTOS_V1_3_mail_aemaphore_mutex/cmake-build-debug/CMakeFiles/RTOS_V1.elf.dir/Core/RTOS/Task/mailbox.c.obj"
   "G:/local/source/cmsis_os/RTOS_V1_3_mail_aemaphore_mutex/Core/RTOS/Task/vReceiverTask.c" "G:/local/source/cmsis_os/RTOS_V1_3_mail_aemaphore_mutex/cmake-build-debug/CMakeFiles/RTOS_V1.elf.dir/Core/RTOS/Task/vReceiverTask.c.obj"
   "G:/local/source/cmsis_os/RTOS_V1_3_mail_aemaphore_mutex/Core/RTOS/Task/vSenderTask.c" "G:/local/source/cmsis_os/RTOS_V1_3_mail_aemaphore_mutex/cmake-build-debug/CMakeFiles/RTOS_V1.elf.dir/Core/RTOS/Task/vSenderTask.c.obj"
   "G:/local/source/cmsis_os/RTOS_V1_3_mail_aemaphore_mutex/Core/Retartget/retarget.c" "G:/local/source/cmsis_os/RTOS_V1_3_mail_aemaphore_mutex/cmake-build-debug/CMakeFiles/RTOS_V1.elf.dir/Core/Retartget/retarget.c.obj"

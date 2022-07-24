@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/RTOS_V1.elf.dir/Core/RTOS/Task/Task1.c.obj"
   "CMakeFiles/RTOS_V1.elf.dir/Core/RTOS/Task/Task2.c.obj"
   "CMakeFiles/RTOS_V1.elf.dir/Core/RTOS/Task/init_Task.c.obj"
+  "CMakeFiles/RTOS_V1.elf.dir/Core/RTOS/Task/mailbox.c.obj"
   "CMakeFiles/RTOS_V1.elf.dir/Core/RTOS/Task/vReceiverTask.c.obj"
   "CMakeFiles/RTOS_V1.elf.dir/Core/RTOS/Task/vSenderTask.c.obj"
   "CMakeFiles/RTOS_V1.elf.dir/Core/Retartget/retarget.c.obj"

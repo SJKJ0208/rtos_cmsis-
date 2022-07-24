@@ -15,6 +15,11 @@ osThreadId defaultTaskHandle;
 osThreadId myTask02Handle;
 osThreadId myTask03Handle;
 
+osThreadId mymailReceive;
+osThreadId mymailSend;
+
+
+osMailQId ID_Mail1;
 osMessageQId ID_Queue1;
 
 ///队列的使用
@@ -24,6 +29,13 @@ void StartTask03(void const * argument);
 ///发送和接受任务
 void vReceiverTask( void const *pvParameters );
 void vSenderTask( void const *pvParameters );
+
+
+///mail的发送和接受任务
+void vReceiverTask_mail( void const *pvParameters );
+void vSenderTask_mail( void const *pvParameters );
+void gpio_init_led();///led的io初始化
+
 
 ///默认任务
 void StartDefaultTask(void const * argument);
@@ -54,35 +66,50 @@ void vApplicationGetIdleTaskMemory( StaticTask_t **ppxIdleTaskTCBBuffer, StackTy
   */
 void MX_FREERTOS_Init(void) {
     RetargetInit(&huart1);
+    gpio_init_led();
     printf("enter in init\r\n");
     /* 创建队列: 长度为5，数据大小为4字节(存放一个整数) */
     osMessageQDef(queue1,5, Data_t);
     ID_Queue1 = osMessageCreate(osMessageQ(queue1),NULL);
 
+    ///创建一个mail，传送的都是Msg的指针也就是一个字节罢了
+    osMailQDef(mail1,1,Msg*);
+    ID_Mail1 = osMailCreate(osMailQ(mail1),NULL);
+
+    if (ID_Mail1 != NULL)
+        printf("Creat mail success\r\n");
+
     if (ID_Queue1 != NULL)
     {
         printf("creat success\r\n");
+///————————————————————————————————————————————————————————————————————————————————————————————————————————
+
         //此处利用宏，不知不觉的创建了一个包含信息（名字，函数地址，优先级，传递的参数，堆栈大小）
 //        osThreadDef(defaultTask, StartDefaultTask, osPriorityNormal, 0, 128);
 //        defaultTaskHandle = osThreadCreate(osThread(defaultTask), NULL);
-
+///————————————————————————————————————————————————————————————————————————————————————————————————————————
         /* 创建2个任务用于写队列, 传入的参数是不同的结构体地址
          * 任务函数会连续执行，向队列发送结构体
          * 优先级为2
          */
-        osThreadDef(CAN_Task, vSenderTask, 2, 2, 1000);
-        myTask02Handle = osThreadCreate(osThread(CAN_Task), ( void * ) &( xStructsToSend[ 0 ] ));
-
-
-        osThreadDef(HMI_Task, vSenderTask, 2, 2, 1000);
-        myTask03Handle = osThreadCreate(osThread(HMI_Task), ( void * ) &( xStructsToSend[ 1 ] ));
-
+//        osThreadDef(CAN_Task, vSenderTask, 2, 2, 1000);
+//        myTask02Handle = osThreadCreate(osThread(CAN_Task), ( void * ) &( xStructsToSend[ 0 ] ));
+//        osThreadDef(Receiver, vReceiverTask, 1, 2, 1000);
+//        myTask03Handle = osThreadCreate(osThread(Receiver), NULL);
         /* 创建1个任务用于读队列
          * 优先级为1, 低于上面的两个任务
          * 这意味着发送任务优先写队列，队列常常是满的状态
          */
-        osThreadDef(Receiver, vReceiverTask, 1, 2, 1000);
-        myTask03Handle = osThreadCreate(osThread(Receiver), NULL);
+//        osThreadDef(HMI_Task, vSenderTask, 2, 2, 1000);
+//        myTask03Handle = osThreadCreate(osThread(HMI_Task), ( void * ) &( xStructsToSend[ 1 ] ));
+///————————————————————————————————————————————————————————————————————————————————————————————————————————
+        osThreadDef(Receive_mail,vReceiverTask_mail,2,1,1000);
+        mymailReceive = osThreadCreate(osThread(Receive_mail),NULL);
+
+        osThreadDef(Send_mail,vSenderTask_mail,1,1,1000);
+        mymailSend = osThreadCreate(osThread(Send_mail),NULL);
+
+
     }
 }
 

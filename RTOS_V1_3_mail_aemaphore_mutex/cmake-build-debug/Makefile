@@ -200,6 +200,30 @@ Core/RTOS/Task/init_Task.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RTOS_V1.elf.dir\build.make CMakeFiles/RTOS_V1.elf.dir/Core/RTOS/Task/init_Task.c.s
 .PHONY : Core/RTOS/Task/init_Task.c.s
 
+Core/RTOS/Task/mailbox.obj: Core/RTOS/Task/mailbox.c.obj
+.PHONY : Core/RTOS/Task/mailbox.obj
+
+# target to build an object file
+Core/RTOS/Task/mailbox.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RTOS_V1.elf.dir\build.make CMakeFiles/RTOS_V1.elf.dir/Core/RTOS/Task/mailbox.c.obj
+.PHONY : Core/RTOS/Task/mailbox.c.obj
+
+Core/RTOS/Task/mailbox.i: Core/RTOS/Task/mailbox.c.i
+.PHONY : Core/RTOS/Task/mailbox.i
+
+# target to preprocess a source file
+Core/RTOS/Task/mailbox.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RTOS_V1.elf.dir\build.make CMakeFiles/RTOS_V1.elf.dir/Core/RTOS/Task/mailbox.c.i
+.PHONY : Core/RTOS/Task/mailbox.c.i
+
+Core/RTOS/Task/mailbox.s: Core/RTOS/Task/mailbox.c.s
+.PHONY : Core/RTOS/Task/mailbox.s
+
+# target to generate assembly for a file
+Core/RTOS/Task/mailbox.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RTOS_V1.elf.dir\build.make CMakeFiles/RTOS_V1.elf.dir/Core/RTOS/Task/mailbox.c.s
+.PHONY : Core/RTOS/Task/mailbox.c.s
+
 Core/RTOS/Task/vReceiverTask.obj: Core/RTOS/Task/vReceiverTask.c.obj
 .PHONY : Core/RTOS/Task/vReceiverTask.obj
 
@@ -1042,6 +1066,9 @@ help:
 	@echo ... Core/RTOS/Task/init_Task.obj
 	@echo ... Core/RTOS/Task/init_Task.i
 	@echo ... Core/RTOS/Task/init_Task.s
+	@echo ... Core/RTOS/Task/mailbox.obj
+	@echo ... Core/RTOS/Task/mailbox.i
+	@echo ... Core/RTOS/Task/mailbox.s
 	@echo ... Core/RTOS/Task/vReceiverTask.obj
 	@echo ... Core/RTOS/Task/vReceiverTask.i
 	@echo ... Core/RTOS/Task/vReceiverTask.s

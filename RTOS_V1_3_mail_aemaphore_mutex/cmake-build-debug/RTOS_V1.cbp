@@ -134,6 +134,9 @@
 		<Unit filename="G:/local/source/cmsis_os/RTOS_V1_3_mail_aemaphore_mutex/Core/RTOS/Task/init_Task.c">
 			<Option target="RTOS_V1.elf"/>
 		</Unit>
+		<Unit filename="G:/local/source/cmsis_os/RTOS_V1_3_mail_aemaphore_mutex/Core/RTOS/Task/mailbox.c">
+			<Option target="RTOS_V1.elf"/>
+		</Unit>
 		<Unit filename="G:/local/source/cmsis_os/RTOS_V1_3_mail_aemaphore_mutex/Core/RTOS/Task/vReceiverTask.c">
 			<Option target="RTOS_V1.elf"/>
 		</Unit>

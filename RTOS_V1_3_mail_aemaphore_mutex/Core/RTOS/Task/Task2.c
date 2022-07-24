@@ -4,7 +4,6 @@
 
 #include "all_src.h"
 #include "stdio.h"
-#include "cmsis_os.h"
 
 /**
 * @brief Function implementing the myTask03 thread.
