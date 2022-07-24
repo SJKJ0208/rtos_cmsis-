@@ -1,0 +1,3 @@
+G:/local/RTOS_V1/cmake-build-debug/CMakeFiles/edit_cache.dir
+G:/local/RTOS_V1/cmake-build-debug/CMakeFiles/RTOS_V1.elf.dir
+G:/local/RTOS_V1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
